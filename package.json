@@ -1,0 +1,22 @@
+{
+  "name": "rallytyper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voidereles/RallyTyper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voidereles/RallyTyper/issues"
+  },
+  "homepage": "https://github.com/Voidereles/RallyTyper#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
