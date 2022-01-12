@@ -27,6 +27,16 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="theme-color" content="#ffffff">
+    <script>
+  var ua = navigator.userAgent;
+
+  if (ua.indexOf("FBAN") != -1 || ua.indexOf("FBAV") != -1) {
+    if (!window.location.href.match('redirect_fb')) {
+      window.location.href = "https://example.com/redirect_fb";
+    }
+  }
+
+</script>
 </head>
 
 <body>
